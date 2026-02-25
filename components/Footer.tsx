@@ -20,7 +20,6 @@ export default function Footer() {
 
         {/* Quick Links */}
         <div className="flex gap-8 text-xs font-bold tracking-[0.2em] uppercase">
-          <Link href="/#" className="hover:text-amber-500 transition-colors active:scale-95">Home</Link>
           <Link href="/#menu" className="hover:text-amber-500 transition-colors active:scale-95">Menu</Link>
           <Link href="/#location" className="hover:text-amber-500 transition-colors active:scale-95">Location</Link>
         </div>

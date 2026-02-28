@@ -74,8 +74,8 @@ const fullFoodData = [
 
 export default function FullMenuPage() {
   return (
-    <main className="min-h-screen bg-[#0f0f0f] text-gray-200 font-sans selection:bg-amber-500 selection:text-white pb-24">     
-      {/* Sticky Navigation Bar */}
+<main className="min-h-screen flex flex-col bg-[#0f0f0f] text-gray-200 font-sans selection:bg-amber-500 selection:text-white">
+        {/* Sticky Navigation Bar */}
       <div className="sticky top-0 z-50 bg-[#0f0f0f]/90 backdrop-blur-md border-b border-gray-800 p-6">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <Link href="/" className="group flex items-center text-sm font-bold tracking-widest text-gray-400 hover:text-amber-500 transition-all uppercase active:scale-95">
@@ -87,8 +87,8 @@ export default function FullMenuPage() {
           </div>
         </div>
       </div>
-
-      <div className="max-w-6xl mx-auto px-6 pt-16 mt-8">
+        
+        <div className="flex-1 w-full max-w-6xl mx-auto px-6 pt-16 mt-8 pb-24">
         
         <div className="text-center mb-16 animate-fade-up opacity-0">
           <h2 className="text-sm font-bold tracking-[0.3em] text-amber-500 uppercase mb-3">AM/PM BLEND | 50% Brazil 50% Vietnam</h2>
